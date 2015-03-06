@@ -24,11 +24,11 @@ version: 1.8.0_+
 memory_sizes:
   heap: 350m..
   metaspace: 100m..150m
-  native: 20m..
+  native: 32m..
 #  permgen: 64m..
 memory_heuristics:
   heap: 65
   metaspace: 25
 #  permgen: 10
   stack: 5
-  native: 5
+  native: 8
