@@ -23,12 +23,12 @@ repository_root: "https://raw.githubusercontent.com/heroicefforts/oj/master"
 version: 1.8.0_+
 memory_sizes:
   heap: 350m..
-  metaspace: 120m..150m
+  metaspace: 100m..
   native: 32m..
 #  permgen: 64m..
 memory_heuristics:
-  heap: 65
-  metaspace: 25
+  heap: 75
+  metaspace: 10
 #  permgen: 10
   stack: 5
-  native: 8
+  native: 10
