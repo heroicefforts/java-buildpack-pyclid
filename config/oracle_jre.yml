@@ -24,6 +24,7 @@ version: 1.8.0_+
 memory_sizes:
   heap: 200m..380m
   metaspace: 120m..170m
+  stack: 512k..1m
   #native: 32m..
 #  permgen: 64m..
 memory_heuristics:
